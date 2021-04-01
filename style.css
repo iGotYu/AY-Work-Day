@@ -27,6 +27,7 @@ textarea{
 
 .time-block{
   text-align: center;
+  justify-content: center;
   border-radius: 15px;
 }
 
@@ -69,3 +70,4 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
