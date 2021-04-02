@@ -73,6 +73,7 @@ $(document).ready(function(){
 saveBtn.on('click', $(this).prev(),function(){
     var rowHour= $(this).parent().data('hour');
     var saveText = $(this).prev().val();
-    localStorage.setItem(rowHour, JSON.stringify(saveText));
-    saveText= JSON.parse(localStorage.getItem(rowHour));
-})
+    localStorage.setItem(rowHour, JSON.stringify(saveText));   
+}, saveText = JSON.parse(localStorage.getItem(rowHour))
+)
+
